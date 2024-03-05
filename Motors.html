@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTORhome</title>
+    <link rel="stylesheet" href="Motors.css">
+    <link rel="icon" type="image/png" href="Pictures/topicon-removebg-preview.png">
+</head>
+<body>
+
+    <header class="header">
+        <a href="Motors.html">
+        <image class="logo" src="Pictures/topicon-removebg-preview.png"></image></a>
+
+            <nav class="navbar">
+                <a href="Motors.html" class="option">Home Page</a>
+                <a href="Content.html" class="option">Content Page</a>
+                <a href="Contact.html" class="option">Contact Page</a>
+            </nav>
+    </header>
+
+    <section class="home" id="section1">
+        <div class="home-content">
+            <h1>Stop Dreaming, Start Riding.</h1>
+    
+        </div>
+    </section>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color:#3b3b3b;
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    height: 100px;
+
+}
+
+/* NAVBAR----------------------------------------------------------- */
+
+.navbar{
+    font-weight: bolder;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 60px;
+    transition: .3s;
+}
+
+
+.navbar a.active{
+    color:#3b3b3b;
+}
+
+.navbar a:hover:not(:active){
+    color:#3b3b3b;
+}
+
+/* NAVBAR----------------------------------------------------------- */
+
+/* HOME----------------------------------------------------------- */
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin-left: 50px;
+    margin: auto;
+    background-image: url(Pictures/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .home-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-content{
+    min-width: 500px;
+    /* border: 1px solid red; */
+
+}
+.home-content h1{
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 1000;
+    width: 100%;
+    justify-content: center;
+    margin-left: 51%;
+    margin-bottom: 550px;
+
+}
+
+
+
+
+
+/* HOME----------------------------------------------------------- */
+    </style>
+
+
+</body>
+</html>

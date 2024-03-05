@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTORcontact</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="icon" type="image/png" href="pictures/topicon-removebg-preview.png">
+</head>
+<body>
+
+    <header class="header">
+        <a href="Motors.html">
+            <image class="logo" src="pictures/topicon-removebg-preview.png"></image></a>
+
+            <nav class="navbar">
+                <a href="Motors.html" class="option">Home Page</a>
+                <a href="Content.html" class="option">Content Page</a>
+                <a href="Contact.html" class="option">Contact Page</a>
+            </nav>
+    </header>
+
+
+
+<section class="contact" id="section3">
+    <div id="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="Videos/Sneak peak_ MotoGP™ in stunning 4K Ultra HD.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="mainbox1">
+        <a href="https://www.facebook.com/gino.sarsonas" target="_blank">
+        <div>
+        <h1 id="text1">FACEBOOK</h1>
+
+        </div>
+    </div>
+</a>
+
+
+    <div id="mainbox2">
+        <a href="https://www.youtube.com/watch?v=3zsT6VOeFdM" target="_blank">
+        <div>
+            <h1 id="text2">YOUTUBE</h1>
+
+        </div>
+    </a>
+    </div>
+
+    <div id="mainbox3">
+        <a href="https://www.instagram.com/ginowithhaki/" target="_blank">
+        <div>
+            <h1 id="text3">INSTAGRAM</h1>
+
+        </div>
+    </div>
+</a>
+
+
+
+</section>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    height: 100px;
+
+}
+
+/* NAVBAR----------------------------------------------------------- */
+.navbar{
+    font-weight: bolder;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 60px;
+    transition: .3s;
+}
+
+
+.navbar a.active{
+    color:#3b3b3b;
+}
+
+.navbar a:hover:not(:active){
+    color:#3b3b3b;
+}
+/* CONTACT----------------------------------------------------------- */
+
+
+#mainbox1 {
+    background-color: #333D79FF;
+    box-shadow: 15px 15px 5px #444;
+    margin: auto;
+    margin-top: 380px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+
+}
+
+
+#mainbox1.active{
+    color:#ffffff;
+    box-shadow: 15px 15px 5px #ffffff;
+}
+
+#mainbox1:hover:not(:active){
+    color:#ececec;
+    box-shadow: 15px 15px 5px #ffffff;
+}
+
+#mainbox2 {
+    background-color: #333D79FF;
+    box-shadow: 15px 15px 5px #444;
+    margin: auto;
+    margin-top: 380px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+#mainbox2.active{
+    color:#ffffff;
+    box-shadow: 15px 15px 5px #ffffff;
+}
+
+#mainbox2:hover:not(:active){
+    color:#ececec;
+    box-shadow: 15px 15px 5px #ffffff;
+}
+
+
+#mainbox3 {
+    background-color:#333D79FF ;
+    box-shadow: 15px 15px 5px #444;
+    margin: auto;
+    margin-top: 380px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+#mainbox3.active{
+    color:#ffffff;
+    box-shadow: 15px 15px 5px #ffffff;
+}
+
+#mainbox3:hover:not(:active){
+    color:#ececec;
+    box-shadow: 15px 15px 5px #ffffff;
+}
+
+
+.contact {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 5px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.contact .box{
+    text-align: center;
+}
+.contact .imagesize{
+    height: 100px;
+    margin-top: -50px;
+
+}
+
+#mainbox1 #text1{
+    font-size: 30PX;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-weight: 1000;
+
+}
+
+
+#mainbox2 #text2{
+    font-size: 30px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-weight: 1000;
+}
+
+
+#mainbox3 #text3{
+    font-size: 30px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-weight: 1000;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+</style>
+
+</body>
+</html>
